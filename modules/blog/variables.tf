@@ -44,3 +44,7 @@ variable "asg_max" {
 variable "env_name" {
   default = "dev"
 }
+
+variable "env_short_prefix" {
+  default = "dev"
+}
